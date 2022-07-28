@@ -422,7 +422,7 @@ table img {
 }
 
 .vieved {
-    padding-bottom: 80px;
+    padding-bottom: 85px;
 }
 
 /* footer */
@@ -449,7 +449,7 @@ table img {
     display: inline-block;
     width: calc(100%/4);
     padding: 0px 15px;
-    padding-bottom: 60px;
+    padding-bottom: 47px;
 }
 
 .column h3 {
@@ -489,34 +489,40 @@ table img {
    }
 
 .icons ul {
+    padding: 0px;
     margin-left: -8px;
+    text-align: center; 
+    list-style: none;    
 }
 
-.icons li {  
-   
-    display: inline-block;
-    list-style: none;
+.icons li {     
+    float: left;
     padding: 0 8px;    
 }
 
-.icons a{
+.icons a {  
+    display: block;  
     text-decoration: none; 
-    font-size: 22px;   
+    width: 45px;
+    height: 45px;
+    padding: 8.5px;    
+    color: #F13C6E;
+    border: 2px solid #F13C6E;
+    border-radius: 50%;   
+    transition: transform .5s;    
 }
 
 .icons a:hover {
-    transform: scale(1.1);
-    transition: transform .3s;
+    transform: scale(1.2);
+    transition: transform .5s;
 }
 
-.icons a {
-    color:#F13C6E;
-    padding: 10px 10px;
-    border: 2px solid #F13C6E;
-    border-radius: 50%;    
+.icons img {      
+    max-width: 100%;    
+    vertical-align: bottom;   
 }
 
-.footer-main_box {
+.footer-main_box {    
     float: right;
     margin-bottom: 37px;
 }
@@ -524,8 +530,7 @@ table img {
 .confid-inf p {
     float: left;
     text-align: left;
-    padding: 25px 0;
-    
+    padding: 25px 0;    
 }
 
 .confid-inf a {    
@@ -542,6 +547,3 @@ table img {
     color: var(--pink);
     transition: var(--speed);
 }
-
-
-
