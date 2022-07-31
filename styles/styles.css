@@ -33,9 +33,10 @@ body {
 
 .container {
     max-width: 1150px;
-    width: 100%;
-    margin: 0px auto;
+    padding-bottom: 5px;
+    width: 100%;   
     padding: 0px 20px;
+   margin: 0 auto;
 }
 
 img {
@@ -122,7 +123,7 @@ img {
     font-weight: 400px;
     line-height: 16px;
     display: inline-block;      
-    padding: 11.5px 27px;
+    padding: 12px 27px;
     border: 2px solid var(--button-border-color);
     border-radius: 50px;
     background-color: var(--button-background);
@@ -301,7 +302,7 @@ img {
 
 .img-letter {
     float: right;
-    padding: 17.5px 0;
+    padding: 18px 0;
     width: 140px;
     height: 140px;    
 }
@@ -360,7 +361,7 @@ img {
 .map {
     margin-top: 25px;
     background: var(--pink);
-    padding: 8.5px 28px;
+    padding: 9px 28px;
     border: 2px solid white;
     color: white;
     text-decoration: none;        
@@ -385,14 +386,17 @@ img {
 }
 
 table {    
-    margin: 0 auto;
+    margin: 0 auto;    
+    padding: 0;
+    list-style: none;  
+    overflow: hidden;
+    border-collapse: collapse;
 }
 
-table tr td {
+table tr td {      
     background-color: white;
-    border-right: 1px solid #EFEFEF;
-    border-bottom: 1px solid #EFEFEF;
-    border-collapse: collapse; 
+    border-right: 1px solid #efefef;
+    border-bottom: 1px solid #EFEFEF;     
     transition: 3s;
 }
 
@@ -404,15 +408,16 @@ tr:last-child td {
     border-bottom: 0px;
 }
 
+
 table a {
     display: block;
-    padding: 33.5px 67px;    
+    padding: 33px 67px;    
     transition: 1s;
 }
 
 table td:hover {
     transition: var(--speed);
-    background: var(--pink);
+    background: var(--pink);    
     border-radius: 70px;
 }
 
@@ -455,7 +460,7 @@ table img {
 .column h3 {
     font-weight: 500;
     font-size: 16px;
-    line-height: 22.5px;
+    line-height: 23px;
     padding-bottom: 30px;
     border-bottom: 1px solid #EFEFEF;
 }
